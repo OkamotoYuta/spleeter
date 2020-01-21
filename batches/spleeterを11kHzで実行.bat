@@ -29,7 +29,7 @@ cd /d %SPLEETER_PATH%
 call %USERPROFILE%\miniconda3\Scripts\activate.bat
 
 for %%i in (%*) do (
-    spleeter separate -i "%%~i" -p spleeter:%INPUTSTR%stems-11kHz -o "%OUT_PUT_PATH%\%%~ni_%INPUTSTR%stems_%timestamp%"
+    spleeter separate -i "%%~i" -p spleeter:%INPUTSTR%stems -o "%OUT_PUT_PATH%\%%~ni_%INPUTSTR%stems_%timestamp%"
 )
 
 pause
