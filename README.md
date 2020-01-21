@@ -1,3 +1,27 @@
+## このリポジトリについて
+[spleeter](https://github.com/deezer/spleeter)を使いたいけどGitわからんとか、コマンドわからん、うまくいかん、そんな人向けにバッチファイルを実行するだけで環境を作成し、実行できるようにバッチファイルを追加したリポジトリです。
+バッチは[Miniconda3](https://docs.conda.io/en/latest/miniconda.html)を使用する想定で作成しました。
+
+## セットアップ
+1. [Miniconda3のダウンロードページ](https://docs.conda.io/en/latest/miniconda.html)からMiniconda3 Windows 64-bitをダウンロードしてインストールしてください。
+インストール先のフォルダは変更せずインストールしてください。
+
+2. [このリポジトリのspleeter](https://github.com/OkamotoYuta/spleeter/archive/master.zip)をダウンロードして適当なところに解凍してください。
+
+3. 解凍した中身の spleeter-master/batches/setupフォルダの中の 1_install ffmpeg.bat を実行（コマンドプロンプトのウィンドウが自動で閉じるまで待ってください）
+
+4. 同様に 2_build and install.bat を実行（コマンドプロンプトのウィンドウが自動で閉じるまで待ってください）
+
+お疲れ様です。以上でセットアップは完了です。
+
+## 音源分離をしてみる
+hogehoge
+hogehoge
+hogehoge
+
+
+-------------------------以下 オリジナルのReadme-------------------------
+
 <img src="https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png" height="80" />
 
 [![CircleCI](https://circleci.com/gh/deezer/spleeter/tree/master.svg?style=shield)](https://circleci.com/gh/deezer/spleeter/tree/master) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/spleeter) [![PyPI version](https://badge.fury.io/py/spleeter.svg)](https://badge.fury.io/py/spleeter) [![Conda](https://img.shields.io/conda/vn/conda-forge/spleeter)](https://anaconda.org/conda-forge/spleeter) [![Docker Pulls](https://img.shields.io/docker/pulls/researchdeezer/spleeter)](https://hub.docker.com/r/researchdeezer/spleeter) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/spleeter/community)
