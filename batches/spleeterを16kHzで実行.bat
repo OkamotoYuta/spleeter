@@ -1,6 +1,6 @@
 @echo off
 
-set SPLEETER_PATH=..
+set SPLEETER_PATH=%~dp0\..
 
 set OUT_PUT_PATH=%USERPROFILE%\Music
 
