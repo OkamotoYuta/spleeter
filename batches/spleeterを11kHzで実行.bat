@@ -1,7 +1,7 @@
 @echo off
 
 rem このバッチファイルを移動する場合は次の SPLEETER_PATH にspleeterの絶対パスをいれてください。
-set SPLEETER_PATH=\..
+set SPLEETER_PATH=..
 
 rem 出力先を変更したい場合は次の OUT_PUT_PATH を変更してください。( %USERPROFILE%\Music は C:\Users\[ユーザー名]\Music のことです。)
 set OUT_PUT_PATH=%USERPROFILE%\Music
