@@ -1,9 +1,9 @@
 @echo off
 
-rem ���̃o�b�`�t�@�C�����ړ�����ꍇ�͎��� SPLEETER_PATH ��spleeter�̐�΃p�X������Ă��������B
+rem このバッチファイルを移動する場合は次の SPLEETER_PATH にspleeterの絶対パスをいれてください。
 set SPLEETER_PATH=..
 
-rem �o�͐��ύX�������ꍇ�͎��� OUT_PUT_PATH ��ύX���Ă��������B( %USERPROFILE%\Music �� C:\Users\[���[�U�[��]\Music �̂��Ƃł��B)
+rem 出力先を変更したい場合は次の OUT_PUT_PATH を変更してください。( %USERPROFILE%\Music は C:\Users\<ユーザー名>\Music のことです。)
 set OUT_PUT_PATH=%USERPROFILE%\Music
 
 set yyyy=%date:~0,4%
@@ -17,7 +17,7 @@ set timestamp=%yyyy%-%mm%%dd%-%hh%%mn%%ss%
 
 :INPUT_CHECK
 set INPUTSTR=
-set /P INPUTSTR="stems�̐�������Ă��������B [2, 4, 5] �̂ǂꂩ: "
+set /P INPUTSTR="stemsの数をいれてください。 [2, 4, 5] のどれか: "
 
 set check=false
 if %INPUTSTR%==2 set check=true
