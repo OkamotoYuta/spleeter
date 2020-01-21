@@ -15,7 +15,7 @@
 お疲れ様です。以上でセットアップは完了です。
 
 ## 音源分離をしてみる
-spleeter-master/batchesフォルダの中の下記バッチファイルに分離したい音源をD&Dしてください（複数可能）  
+spleeter-master/batchesフォルダの中の下記バッチファイルに分離したい音源をD&Dしてください（複数同時にD&D可能）  
 spleeterを11kHzで実行.bat   → 11kHz以上の音がカットされる  
 spleeterを16kHzで実行.bat   → 16kHz以上の音がカットされる  
 spleeterを22kHzで実行.bat   → 音がカットされない  
