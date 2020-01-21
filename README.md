@@ -8,14 +8,18 @@
   
 2. [このリポジトリのspleeter](https://github.com/OkamotoYuta/spleeter/archive/master.zip)をダウンロードして適当なところに解凍してください。
   
-3. 解凍した中身の spleeter-master/batches/setupフォルダの中の 1_install ffmpeg.bat を実行（コマンドプロンプトのウィンドウが自動で閉じるまで待ってください）
+3. 解凍した中身の spleeter-master/batches/setupフォルダの中の 1_install ffmpeg.bat を実行  
+（コマンドプロンプトのウィンドウが自動で閉じるまで待ってください）
   
-4. 同様に 2_build and install.bat を実行（コマンドプロンプトのウィンドウが自動で閉じるまで待ってください）
+4. 同様に 2_build and install.bat を実行  
+（コマンドプロンプトのウィンドウが自動で閉じるまで待ってください）
   
+<br>
 お疲れ様です。以上でセットアップは完了です。
 
 ## 音源分離をしてみる
-1. spleeter-master/batchesフォルダの中の下記バッチファイルに分離したい音源をD&Dしてください。（複数同時にD&D可能）  
+1. spleeter-master/batchesフォルダの中の下記バッチファイルに分離したい音源をD&Dしてください。  
+（複数同時にD&D可能）  
    - spleeterを11kHzで実行.bat   → 11kHz以上の音がカットされる  
    - spleeterを16kHzで実行.bat   → 16kHz以上の音がカットされる  
    - spleeterを22kHzで実行.bat   → 音がカットされない  
@@ -30,8 +34,8 @@
 4. 分離したデータは ミュージックフォルダの中に出力されます。  
   
 ## その他 補足
-- wikiによると11kHzで事前学習済みモデルを作成しているため、16kHz, 22kHzではおかしなことになるかもしれないらしい。  
-なので問題があれば低いやつで試してみるといいかも。    
+- wikiによると11kHzで事前学習済みモデルを作成しているため、16kHz, 22kHzでは変になるかもしれないらしい。  
+なので問題があれば低いやつで試してみるといいかも。 
   
 - 出力先を変えたい場合はバッチファイルを編集で開いて OUT_PUT_PATH を変更してください。  
   
