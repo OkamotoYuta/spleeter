@@ -28,16 +28,21 @@
 3. 初回は事前学習済みモデルのダウンロードが始まるので気長に待ってください。
   
 4. 分離したデータは ミュージックフォルダの中に出力されます。  
-  
+<br>
+<br>
 wikiによると11kHzで事前学習済みモデルを作成しているため、16kHz, 22kHzではおかしなことになるかもしれないらしい。  
 なので問題があれば低いやつで試してみるといいかも。  
-  
-  
-  
-  
-  
+<br>
+出力先を変えたい場合は4行目の OUT_PUT_PATH を変更してください。  
+バッチファイルの場所を変更する場合は SPLEETER_PATH を変更してspleeterの絶対パスを入れてください。  
+（そうしないと事前学習済みモデルが変なところに再ダウンロードされちゃうと思います）
+<br>
+<br>
+<br>
+<br>
 -------------------------以下 オリジナルのReadme-------------------------  
-  
+<br>
+<br>
 <img src="https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png" height="80" />
 
 [![CircleCI](https://circleci.com/gh/deezer/spleeter/tree/master.svg?style=shield)](https://circleci.com/gh/deezer/spleeter/tree/master) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/spleeter) [![PyPI version](https://badge.fury.io/py/spleeter.svg)](https://badge.fury.io/py/spleeter) [![Conda](https://img.shields.io/conda/vn/conda-forge/spleeter)](https://anaconda.org/conda-forge/spleeter) [![Docker Pulls](https://img.shields.io/docker/pulls/researchdeezer/spleeter)](https://hub.docker.com/r/researchdeezer/spleeter) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/spleeter/community)
