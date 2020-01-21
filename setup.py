@@ -19,7 +19,7 @@ tensorflow_dependency = 'tensorflow'
 tensorflow_version = '1.14.0'
 here = path.abspath(path.dirname(__file__))
 readme_path = path.join(here, 'README.md')
-with open(readme_path, 'r') as stream:
+with open(readme_path, 'r',encoding="utf-8_sig") as stream:
     readme = stream.read()
 
 # Package setup entrypoint.
