@@ -1,5 +1,5 @@
 ## このリポジトリについて
-[spleeter](https://github.com/deezer/spleeter)を使いたいけどGitわからんとか、コマンドわからん、うまくいかん、そんな人向けに簡単に環境を作成し、実行できるようにバッチファイルを追加したリポジトリです。
+[spleeter](https://github.com/deezer/spleeter)を使いたいけどGitわからんとか、コマンドわからんとか、うまくいかんとか、そんな人向けに簡単に環境を作成し、実行できるようにバッチファイルを追加したリポジトリです。
 バッチは[Miniconda3](https://docs.conda.io/en/latest/miniconda.html)を使用する想定で作成しました。
 
 ## セットアップ
