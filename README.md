@@ -1,5 +1,5 @@
 ## このリポジトリについて
-[spleeter](https://github.com/deezer/spleeter)を使いたいけどGitわからんとか、コマンドわからんとか、うまくいかんとか、そんな人向けに簡単に環境を構築し、実行できるようにバッチファイルを追加したリポジトリです。
+[spleeter](https://github.com/deezer/spleeter)を使いたいけどGitわからんとか、コマンドわからんとか、22kHzで音源分離するやり方わからんとか、そんな人向けに簡単に環境を構築し、実行できるようにバッチファイルを追加したリポジトリです。
 バッチは[Miniconda3](https://docs.conda.io/en/latest/miniconda.html)を使用する想定で作成しました。
 
 ## セットアップ
